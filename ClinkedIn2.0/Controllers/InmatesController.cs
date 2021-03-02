@@ -8,12 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ClinkedIn2._0.Controllers
 {
-	public class InmatesController : Controller
+	[Route("api/inmates")]
+	[ApiController]
+	public class InmatesController : ControllerBase
 	{
-		// GET: /<controller>/
-		public IActionResult Index()
-		{
-			return View();
-		}
+
+		
 	}
 }
